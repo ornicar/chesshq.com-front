@@ -1,0 +1,28 @@
+{
+	"short_name": "Chess HQ",
+	"name": "Chess HQ",
+	"description": "間隔反復をしてチェスのオープニングを勉強し、500万以上の試合のチェスデータベースを検索し、マスター試合と個人の試合のコレクションを作成します。",
+	"icons": [
+		{
+			"src": "favicon.ico",
+			"sizes": "96x96 64x64 32x32 24x24 16x16",
+			"type": "image/x-icon"
+		},
+		{
+			"src": "assets/images/business/logo192.png",
+			"type": "image/png",
+			"sizes": "192x192",
+			"purpose": "maskable any"
+		},
+		{
+			"src": "assets/images/business/logo512.png",
+			"type": "image/png",
+			"sizes": "512x512",
+			"purpose": "maskable any"
+		}
+	],
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "#000000",
+	"background_color": "#1f2937"
+}

@@ -1,0 +1,20 @@
+{
+  "connections": "接続",
+  "email": "メールアドレス",
+  "input_email": "メールアドレスをご入力ください。",
+  "input_password": "$t(dashboard:password)をご入力ください。",
+  "input_username": "$t(dashboard:username)をご入力ください。",
+  "logout": "ログアウト",
+  "notifications": "通知",
+  "password": "パスワード",
+  "reset_password": "$t(dashboard:password)のリセット",
+  "reset_password_email": "$t(dashboard:password)リセットのメールが送信されました。",
+  "setting_account_changes": "アカウントの変更",
+  "setting_chess_news": "チェスニュース",
+  "setting_chesscom_username": "Chess.comのユーザー名",
+  "setting_feature_releases": "機能リリースとアップデート",
+  "setting_lichess_username": "Lichessのユーザー名",
+  "setting_training_reminders": "トレーニングリマインダー",
+  "user_info": "ユーザー情報",
+  "username": "表示名"
+}

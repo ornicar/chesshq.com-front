@@ -1,0 +1,22 @@
+{
+	"by_criteria": "By Criteria",
+	"by_move_input": "By Move Input",
+	"first_name": "First name",
+	"last_name": "Last name",
+	"month": "Month",
+	"move_input_prompt": "To begin searching, please click the \"$t(start_searching)\" button below, then make moves on the board.",
+	"must_include_all": "Must include every {{item}}",
+	"must_include_any": "Must include any {{item}}",
+	"search": "Search",
+	"search_by_date": "Search by date",
+	"search_by_elo": "Search by Elo",
+	"search_by_fen": "Search by FEN",
+	"search_by_move_input": "Search by move input",
+	"search_by_multiple_fen": "Search by multiple FENs",
+	"search_by_opening": "Search by opening",
+	"search_by_pgn": "Search by PGN",
+	"search_by_player": "Search by player",
+	"start_searching": "Start Searching",
+	"stop_searching": "Stop Searching",
+	"year": "Year"
+}

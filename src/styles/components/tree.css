@@ -1,0 +1,83 @@
+#tree-panel li {
+	position: relative;
+}
+
+#tree-panel svg {
+	position: relative;
+	z-index: 1;
+}
+
+#tree-panel ul > li.branch:before {
+	border-radius: 0 0.3em 0 0;
+	border-bottom: 0;
+	border-left: 0;
+	border-right: 1px solid var(--tree-line);
+	border-top: 1px solid var(--tree-line);
+	width: 0.6em;
+	height: calc(100% - 2em);
+	position: absolute;
+	display: block;
+	top: 0.7em;
+	left: 0.2em;
+	content: "";
+}
+
+#tree-panel > div > div > ul > li.branch:after {
+	border-radius: 0 0.3em 0 0;
+	border-bottom: 0;
+	border-left: 0;
+	border-right: 1px solid var(--tree-line);
+	border-top: 0;
+	width: 0.6em;
+	height: 100%;
+	position: absolute;
+	display: block;
+	top: 1.1em;
+	left: -0.95em;
+	content: "";
+}
+
+#tree-panel > div > div > ul:not(:first-of-type) > li.branch:after {
+	border-radius: 0 0 0 0;
+	border-bottom: 0;
+	border-left: 0;
+	border-right: 1px solid var(--tree-line);
+	border-top: 0;
+	width: 0.6em;
+	height: (100% + 2.3em);
+	position: absolute;
+	display: block;
+	top: -1.2em;
+	left: -0.95em;
+	content: "";
+}
+
+#tree-panel ul > li.leaf:before {
+	border-radius: 0 0 0 0.3em;
+	border-bottom: 1px solid var(--tree-line);
+	border-left: 1px solid var(--tree-line);
+	border-top: 0;
+	border-right: 0;
+	width: 1em;
+	height: 1em;
+	position: absolute;
+	display: block;
+	top: -0.1em;
+	left: -1.4em;
+	content: "";
+}
+
+#tree-panel > div > div > ul > li.leaf:before {
+	border-radius: 0 0 0 0.3em;
+	border-bottom: 1px solid var(--tree-line);
+	border-left: 1px solid var(--tree-line);
+	border-top: 0;
+	border-right: 0;
+	width: 1em;
+	height: calc(100% + 1em);
+	position: absolute;
+	display: block;
+	top: -1.7em;
+	left: -1.4em;
+	content: "";
+}

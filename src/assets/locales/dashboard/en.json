@@ -1,0 +1,21 @@
+{
+	"connections": "Connections",
+	"email": "E-mail",
+	"input_email": "Please input an e-mail address.",
+	"input_password": "Please input your $t(dashboard:password, lowercase).",
+	"input_username": "Please input your $t(dashboard:username, lowercase).",
+	"logout": "Logout",
+	"notifications": "Notifications",
+	"password": "Password",
+	"reset_password": "Reset your $t(dashboard:password, lowercase)",
+	"reset_password_email": "$t(dashboard:password) reset e-mail sent.",
+	"user_info": "User Info",
+	"username": "Display Name",
+
+	"setting_account_changes": "Account Changes",
+	"setting_chess_news": "Chess News",
+	"setting_chesscom_username": "Chess.com Username",
+	"setting_feature_releases": "Feature Releases & Updates",
+	"setting_lichess_username": "Lichess Username",
+	"setting_training_reminders": "Training Reminders"
+}

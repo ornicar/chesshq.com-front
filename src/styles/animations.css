@@ -1,0 +1,18 @@
+.shake {
+	transition: transform ease-in-out;
+	animation: shake 0.5s;
+}
+
+@keyframes shake {
+	0%, 100% {
+		transform: translateX(0);
+	}
+
+	10%, 30%, 40%, 50%, 60%, 80% {
+		transform: translateX(-2px);
+	}
+
+	20%, 35%, 45%, 55%, 70%, 90% {
+		transform: translateX(2px);
+	}
+}

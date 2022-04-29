@@ -1,0 +1,5 @@
+/* 47px is the height of each Ant accordion header */
+/* 3rem is the height of the site header */
+#chess-right-menu .ant-collapse-content {
+	overflow-y: auto;
+}

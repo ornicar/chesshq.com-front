@@ -1,0 +1,15 @@
+{
+	"100001": "Not authorized to access this resource.",
+	"300101": "Login failed. The $t(dashboard:email, lowercase) or $t(dashboard:password, lowercase) was incorrect.",
+	"300301": "Invalid FEN provided.",
+	"300201": "This move cannot be reviewed yet.",
+	"300302": "Invalid ECO provided.",
+	"300303": "Invalid PGN provided.",
+	"auth/account-exists-with-different-credential": "Cannot sign in this way.",
+	"auth/invalid-email": "Invalid $t(dashboard:email, lowercase) provided.",
+	"auth/weak-password": "Please use a stronger $t(dashboard:password, lowercase).",
+	"auth/wrong-password": "Invalid $t(dashboard:password, lowercase) provided.",
+	"no_games_found": "No games found.",
+	"relogin": "These changes require you to first login again.",
+	"unexpected": "An unexpected error occurred."
+}

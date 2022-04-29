@@ -1,0 +1,80 @@
+body .ant-card.feature-card {
+	border-radius: 1.5rem !important;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+body .ant-card.feature-card > .ant-card-body {
+	flex: 1;
+}
+
+body .ant-card.feature-card > .ant-card-actions {
+	border-radius: 0 0 1.5rem 1.5rem;
+}
+
+body .ant-card.feature-card,
+body .ant-card.feature-card > .ant-card-actions {
+	background: var(--gray-900);
+	background: #000036;
+}
+
+body .ant-card.feature-card > .ant-card-actions > li > span {
+	cursor: auto;
+	color: var(--gray-500) !important;
+}
+
+body .ant-card.feature-card .subscription-notice-success {
+	display: flex;
+	padding: 0;
+	width: max-content;
+	margin: 0 auto;
+	justify-items: center;
+}
+
+body .ant-card.feature-card .subscription-notice-success > .ant-result-icon {
+	margin: 0;
+	padding: 0;
+	flex: 0;
+}
+
+body .ant-card.feature-card .subscription-notice-success > .ant-result-icon > .anticon {
+	font-size: 1.25rem;
+	line-height: 1.25rem;
+}
+
+body .ant-card.feature-card .subscription-notice-success > .ant-result-title {
+	font-size: 1rem;
+	line-height: 1.5rem;
+	justify-items: center;
+	padding-left: 0.5rem;
+}
+
+.features li {
+	border-top: 1px solid #303030;
+}
+
+.features > li.feature-section {
+	padding: 0.5rem 0 0 0;
+	background: #4b5563;
+	background: var(--gray-700);
+}
+
+.features > li.feature-section.standalone {
+	padding-bottom: 0.5rem;
+}
+
+.features > li.feature-section > span {
+	font-weight: bold;
+	display: block;
+	padding: 0 0.5rem;
+}
+
+.features > li.feature-section > ul.feature-details {
+	margin: 0.5rem 0 0 0;
+	background: rgba(0, 0, 54, 0.9);
+}
+
+.features > li.feature-section > ul.feature-details > li {
+	padding: 0.5rem 1.5rem;
+}

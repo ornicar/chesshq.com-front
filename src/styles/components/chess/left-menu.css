@@ -1,0 +1,17 @@
+/* 47px is the height of each Ant accordion header */
+/* 3rem is the height of the site header */
+#chess-left-menu .ant-collapse-content {
+	/* min-height: calc(100vh - 47px - 47px - 3rem);
+	max-height: calc(100vh - 47px - 47px - 3rem); */
+	max-height: 100vh;
+	overflow-y: auto;
+}
+
+#chess-left-menu #related-openings-panel .ant-collapse-content,
+#chess-left-menu #related-transpositions-panel .ant-collapse-content {
+	max-height: 80vh;
+}
+
+#chess-left-menu #tree-panel .ant-collapse-content {
+	max-height: 800px;
+}

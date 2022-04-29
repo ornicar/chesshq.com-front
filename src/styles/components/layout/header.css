@@ -1,0 +1,7 @@
+nav > a {
+	color: rgba(255, 255, 255, 1);
+}
+
+nav > a.active {
+	color: var(--green-500);
+}

@@ -1,0 +1,141 @@
+body .cg-wrap {
+	overflow: hidden;
+}
+
+body .cg-wrap coords.files {
+	bottom: 2.25em;
+}
+
+body .cg-wrap coords.files coord {
+	padding-left: 0;
+	text-align: right;
+	padding-right: 0.25em;
+	line-height: 2.25em;
+}
+
+body .cg-wrap coords.ranks {
+	left: 0.50em;
+}
+
+body .cg-wrap coords.ranks coord {
+	padding-right: 0;
+	transform: none;
+}
+
+body .cg-wrap coords coord {
+	font-weight: bold;
+	font-size: 2.25em;
+	text-transform: lowercase;
+	position: relative;
+}
+
+body .cg-wrap.orientation-white coords.files coord:nth-child(even),
+body .cg-wrap.orientation-white coords.ranks coord:nth-child(even),
+body .cg-wrap.orientation-black coords.files coord:nth-child(odd),
+body .cg-wrap.orientation-black coords.ranks coord:nth-child(odd) {
+	/* color:rgba(0, 0, 0, 0.75); */
+	color: var(--chess-dark-coord);
+}
+
+body .cg-wrap.orientation-white coords.files coord:nth-child(odd),
+body .cg-wrap.orientation-white coords.ranks coord:nth-child(odd),
+body .cg-wrap.orientation-black coords.files coord:nth-child(even),
+body .cg-wrap.orientation-black coords.ranks coord:nth-child(even) {
+	/* color:rgba(255, 255, 255, 0.75); */
+	color: var(--chess-light-coord);
+}
+
+body .piece-store {
+	text-align: right;
+	align-items: center;
+}
+
+body .piece-store > .piece-group > .piece {
+	margin-right: -14px;
+	filter: drop-shadow(-1px 0px 1px rgb(0 0 0 / 0.3));
+}
+
+body .piece-store > .piece-group > .piece:last-child {
+	margin-right: 0;
+}
+
+body .standalone.piece {
+	width: 20px;
+	height: 20px;
+	line-height: 25px;
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+body .cg-wrap piece.black.pawn,
+body .standalone.piece.black.p {
+	background-image: url("../../assets/chess/pieces/staunty/black-pawn.svg");
+}
+
+body .cg-wrap piece.black.rook,
+body .standalone.piece.black.r {
+	background-image: url("../../assets/chess/pieces/staunty/black-rook.svg");
+}
+
+body .cg-wrap piece.black.knight,
+body .standalone.piece.black.n {
+	background-image: url("../../assets/chess/pieces/staunty/black-knight.svg");
+}
+
+body .cg-wrap piece.black.bishop,
+body .standalone.piece.black.b {
+	background-image: url("../../assets/chess/pieces/staunty/black-bishop.svg");
+}
+
+body .cg-wrap piece.black.queen,
+body .standalone.piece.black.q {
+	background-image: url("../../assets/chess/pieces/staunty/black-queen.svg");
+}
+
+body .cg-wrap piece.black.king,
+body .standalone.piece.black.k {
+	background-image: url("../../assets/chess/pieces/staunty/black-king.svg");
+}
+
+body .cg-wrap piece.white.pawn,
+body .standalone.piece.white.p {
+	background-image: url("../../assets/chess/pieces/staunty/white-pawn.svg");
+}
+
+body .cg-wrap piece.white.rook,
+body .standalone.piece.white.r {
+	background-image: url("../../assets/chess/pieces/staunty/white-rook.svg");
+}
+
+body .cg-wrap piece.white.knight,
+body .standalone.piece.white.n {
+	background-image: url("../../assets/chess/pieces/staunty/white-knight.svg");
+}
+
+body .cg-wrap piece.white.bishop,
+body .standalone.piece.white.b {
+	background-image: url("../../assets/chess/pieces/staunty/white-bishop.svg");
+}
+
+body .cg-wrap piece.white.queen,
+body .standalone.piece.white.q {
+	background-image: url("../../assets/chess/pieces/staunty/white-queen.svg");
+}
+
+body .cg-wrap piece.white.king,
+body .standalone.piece.white.k {
+	background-image: url("../../assets/chess/pieces/staunty/white-king.svg");
+}
+
+body .promotion-modal .ant-modal-content {
+	background: rgba(31, 41, 55, 0.88);
+}
+
+body .promotion .standalone.piece {
+	width: auto;
+	height: 4rem;
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+}

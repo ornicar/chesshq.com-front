@@ -1,0 +1,21 @@
+.demo-section > div {
+	position: relative;
+	width: 100%;
+}
+
+.demo-section > div > h1 {
+	font-family: 'Red Hat Display', 'Lato', sans-serif;
+	text-transform: uppercase;
+	text-rendering: optimizeLegibility;
+	font-weight: 300;
+	font-size: 3em;
+	line-height: 1em;
+}
+
+.demo-section > div > p {
+	font-size: 14pt;
+}
+
+.demo-section > div.right {
+	text-align: right;
+}

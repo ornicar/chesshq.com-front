@@ -1,0 +1,16 @@
+{
+	"writeKey": "write-key",
+	"readKey": "read-key",
+
+	"upload": {  
+		"type": "json",
+		"files": {
+			"pattern": "src/assets/locales/**/en.json",
+			"path": "${autodetectPath}"
+		}
+	},
+
+	"download": {
+		"files": "${path}/${lang}.json"
+	}
+}

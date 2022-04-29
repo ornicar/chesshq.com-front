@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate"/>
+		<meta http-equiv="pragma" content="no-cache"/>
+		<meta http-equiv="expires" content="-1"/>
+		<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="theme-color" content="#000000" />
+		<link rel="apple-touch-icon" href="%PUBLIC_URL%/assets/images/business/logo192.png" />
+		<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+		<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Red Hat Display:300,700&display=swap" />
+		<title>Chess HQ - Learn openings, search our chess database, and build collections</title>
+		<style>
+			body {
+				margin: 0;
+				background: url("%PUBLIC_URL%/assets/images/business/logo512-transparent.png");
+				background-repeat: no-repeat;
+				background-position: center;
+				background-color: #1f2937 !important;
+				min-height: 100vh;
+			}
+
+			@media screen and (max-width: 512px) {
+				body {
+					background-size: 90vmin;
+				}
+			}
+		</style>
+
+		<!-- Begin initial meta-->
+		<meta lang="en" name="description" content="Study chess openings with spaced repetition, search our chess database of over 5 million games, and build collections of master games and personal games."/>
+		<link rel="manifest" href="%PUBLIC_URL%/manifest.en.json"/>
+		<meta property="og:type" content="website"/>
+		<meta lang="en" property="og:title" content="Chess HQ - Learn openings, search our chess database, and build collections"/>
+		<meta lang="en" property="og:description" content="Study chess openings with spaced repetition, search our chess database of over 5 million games, and build collections of master games and personal games."/>
+		<meta property="og:image" content="%REACT_APP_PUBLIC_URL%%PUBLIC_URL%/assets/images/business/logo1024.png"/>
+		<meta lang="en" property="og:site_name" content="Chess HQ"/>
+		<meta name="twitter:card" content="summary_large_image"/>
+		<meta lang="en" property="twitter:title" content="Chess HQ - Learn openings, search our chess database, and build collections"/>
+		<meta lang="en" property="twitter:description" content="Study chess openings with spaced repetition, search our chess database of over 5 million games, and build collections of master games and personal games."/>
+		<meta property="twitter:image" content="%REACT_APP_PUBLIC_URL%%PUBLIC_URL%/assets/images/business/logo1024.png"/>
+		<meta property="twitter:site" content="@ChessHQcom"/>
+		<meta property="twitter:creator" content="@ChessHQcom"/>
+		<!-- End initial meta -->
+
+		<% if (process.env.NODE_ENV === "production") { %>
+			<!-- Google Tag Manager -->
+			<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+			})(window,document,'script','dataLayer','GTM-W7XSLDQ');</script>
+			<!-- End Google Tag Manager -->
+		<% } %>
+	</head>
+	<body>
+		<% if (process.env.NODE_ENV === "production") { %>
+			<!-- Google Tag Manager (noscript) -->
+			<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W7XSLDQ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+			<!-- End Google Tag Manager (noscript) -->
+		<% } %>
+		<noscript>You need to enable JavaScript to run this app.</noscript>
+		<div id="root"></div>
+		<script>
+			function initStockfish() {
+				Stockfish().then((sf) => {
+					window.sf = sf;
+
+					sf.postMessage("uci");
+				});
+			}
+		</script>
+		<script src="%PUBLIC_URL%/assets/stockfish/stockfish.js" async defer onload="initStockfish();"></script>
+	</body>
+</html>

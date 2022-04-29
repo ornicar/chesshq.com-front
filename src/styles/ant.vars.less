@@ -1,0 +1,119 @@
+@primary-color: #059669;
+@info-color: red;
+@link-color: @primary-color;
+
+@component-background: #28313f;
+@border-color-split: #434343;
+
+@btn-default-bg: @primary-color;
+@btn-primary-bg: #177ddc;
+@btn-dashed-bg: transparent;
+
+@table-header-bg: rgba(0, 0, 0, 0.15);
+@table-header-sort-bg: @table-header-bg;
+@table-header-sort-active-bg: rgba(0, 0, 0, 0.20);
+@table-row-hover-bg: #374151;
+
+@menu-inline-submenu-bg: transparent;
+
+@modal-content-bg: #1f2937;
+@modal-header-bg: @modal-content-bg;
+
+@popover-bg: @component-background;
+@dropdown-menu-bg: @component-background;
+@select-background: @component-background;
+@select-dropdown-bg: @component-background;
+@notification-bg: @component-background;
+@picker-bg: @component-background;
+@calendar-bg: @component-background;
+@drawer-bg: rgba(0, 0, 0, 0.8);
+
+@error-color: #ef4444;
+
+@label-required-color: @error-color;
+
+@border-radius-base: 0.125rem;
+
+@picker-basic-cell-disabled-bg: rgba(0, 0, 0, 0.06);
+
+/* Background changes */
+body .ant-menu-submenu-title {
+	background: @background-color-light;
+}
+
+body .ant-btn:hover, body .ant-btn:focus, body .ant-btn:active {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+body .ant-btn-default:hover {
+	background: color(~`colorPalette('@{btn-default-bg}', 5) `);
+}
+
+body .ant-message-notice-content,
+body .ant-notification-notice-error {
+	background: var(--red-800);
+}
+
+body .ant-drawer .ant-menu {
+	background: rgba(0, 0, 0, 0.4);
+}
+
+body button.ant-btn-default.premium {
+	background-color: var(--yellow-600);
+	border-color: var(--yellow-600);
+}
+
+body .ant-btn-default.premium:hover,
+body .ant-btn-default.premium:focus,
+body .ant-btn-default.premium:active {
+	background-color: var(--yellow-500);
+	border-color: var(--yellow-500);
+}
+
+body .ant-btn-dashed,
+body .ant-btn-dashed:hover,
+body .ant-btn-dashed:focus,
+body .ant-btn-dashed:active {
+	background: transparent;
+}
+
+/* Position fixes */
+body .ant-message-notice-content .anticon {
+	top: -3px;
+}
+
+body .ant-pagination-item-link > span.anticon,
+body .ant-pagination-item-container > span.anticon,
+body span.ant-btn-loading-icon,
+body .ant-picker .anticon.anticon-swap-right,
+body .ant-picker .anticon.anticon-swap-left,
+body .ant-select .anticon-close,
+body .ant-select .anticon-close-circle {
+	position: relative;
+	top: -3px;
+}
+
+body .ant-notification-notice-content .anticon {
+	transform: translateY(-2px);
+}
+
+/* Border fixes */
+body .ant-menu-inline,
+body .ant-menu-vertical,
+body .ant-menu-vertical-left {
+	border-right: 0;
+}
+
+/* State fixes */
+body .ant-menu-item.menu-item-button,
+body .ant-menu-item.menu-item-button > span {
+	max-width: min-content;
+}
+
+body .ant-menu-item.menu-item-button:hover {
+	cursor: default;
+}
+
+body .ant-menu-item.menu-item-button:active {
+	background: initial;
+}

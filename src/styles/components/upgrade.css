@@ -1,0 +1,8 @@
+#upgrade .ant-card-head-title {
+	line-height: 1em;
+	font-size: 2em;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-family: 'Red Hat Display', 'Lato', sans-serif;
+	color: var(--green-500);
+}

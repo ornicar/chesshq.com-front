@@ -1,0 +1,22 @@
+{
+  "by_criteria": "基準によって",
+  "by_move_input": "指し手の入力によって",
+  "first_name": "名",
+  "last_name": "姓",
+  "month": "月",
+  "move_input_prompt": "検索を開始するには、下の「$t(start_searching)」ボタンをクリックして、ボードで指し手を入力してください。",
+  "must_include_all": "すべての{{item}}を含める必要があります",
+  "must_include_any": "任意の{{item}}を含める必要があります",
+  "search": "検索",
+  "search_by_date": "日付で検索",
+  "search_by_elo": "Eloで検索",
+  "search_by_fen": "FENで検索",
+  "search_by_move_input": "指し手の入力で検索",
+  "search_by_multiple_fen": "数のFENで検索",
+  "search_by_opening": "オープニングで検索",
+  "search_by_pgn": "PGNで検索",
+  "search_by_player": "プレイヤーで検索",
+  "start_searching": "検索の開始",
+  "stop_searching": "検索の停止",
+  "year": "年"
+}
